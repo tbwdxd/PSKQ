@@ -1,10 +1,10 @@
 ## What is PSKQ
 
-PSKQ is Spacial Keyword Query System, which was first initialized by Hwasung Lee with Dr. Yun Tian in the Cloud Computing Lab at California State University, Fullerton.
+PSKQ stands for Spark Spacial Keyword Query System, which was first initialized by Hwasung Lee with Dr. Yun Tian in the Cloud Computing Lab at California State University, Fullerton.
 
-The project was focusing on solving Spacial Keyword Query based on real distance by utilizing Voroni Algorithms and Apache Spark.
+The project  is focusing on solving Spacial Keyword Query based on real distance by utilizing Voroni Algorithms and Apache Spark.
 
-Also, Bowen Tian, Yijie Sun, Brandon Hubbert, Yuting Zhang *...TO BE ADDED ..* are participated as project researchers.
+Also, Bowen Tian, Yijie Sun, Suraj Bennur, Brandon Huebert, Yuting Zhang, Sahar Ghanei, Vikram Harish Swaminathan, Danqi Chen are participated as project researchers.
 
 ## Current State
 
