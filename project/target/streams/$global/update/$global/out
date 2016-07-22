@@ -140,7 +140,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/jline/jline/1.0/jline-1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/jline/jline/1.0/jline-1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/jline/jline/1.0/jline-1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jline#jline;1.0!jline.pom(pom.original) (116ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jline#jline;1.0!jline.pom(pom.original) (42ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -304,9 +304,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.0.4[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: commons-logging#commons-logging;1.0.4[0m
-[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/commons-logging/commons-logging/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/commons-logging/commons-logging/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for commons-logging#commons-logging;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-logging/commons-logging/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-logging/commons-logging/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for commons-logging#commons-logging;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried /home/cloudera/.ivy2/local/commons-logging/commons-logging/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-logging#commons-logging;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for commons-logging#commons-logging;1.0.4[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom (1.0.4)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-logging#commons-logging;1.0.4!commons-logging.pom(pom.original) (31ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/commons-logging/commons-logging/1.0.4/jars/commons-logging.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/commons-logging/commons-logging/1.0.4/jars/commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-logging/commons-logging/1.0.4/jars/commons-logging.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/commons-logging/commons-logging/1.0.4/jars/commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/cloudera/.ivy2/local/commons-logging/commons-logging/1.0.4/jars/commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.0.4 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.2 ...[0m
@@ -1255,12 +1275,17 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.ivy#ivy;2.3.0-rc1!ivy.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-logging#commons-logging;1.0.4!commons-logging.jar (45ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.2!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2408ms :: artifacts dl 42ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3222ms :: artifacts dl 74ms[0m
 [0m[[0mdebug[0m] [0m	report for default#default-1b7561;0.1-SNAPSHOT compile produced in /home/cloudera/PSKQ/project/target/resolution-cache/reports/default-default-1b7561-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-1b7561;0.1-SNAPSHOT runtime produced in /home/cloudera/PSKQ/project/target/resolution-cache/reports/default-default-1b7561-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-1b7561;0.1-SNAPSHOT test produced in /home/cloudera/PSKQ/project/target/resolution-cache/reports/default-default-1b7561-test.xml[0m
@@ -1273,5 +1298,5 @@
 [0m[[0mdebug[0m] [0m	report for default#default-1b7561;0.1-SNAPSHOT sources produced in /home/cloudera/PSKQ/project/target/resolution-cache/reports/default-default-1b7561-sources.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-1b7561;0.1-SNAPSHOT docs produced in /home/cloudera/PSKQ/project/target/resolution-cache/reports/default-default-1b7561-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-1b7561;0.1-SNAPSHOT pom produced in /home/cloudera/PSKQ/project/target/resolution-cache/reports/default-default-1b7561-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2408ms resolve - 42ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (3222ms resolve - 74ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
