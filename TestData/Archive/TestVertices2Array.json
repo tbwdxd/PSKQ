@@ -1,0 +1,4 @@
+[{"border_points":[3000001.0,3000002.0],"dist_to_poi":0.0,"poi_label":2000001.0,"stars":2.5,"type":"POI","id":2000001.0,"categories":["Food","Restaurants","Pizza"]},
+{"border_points":[""],"dist_to_poi":0.0,"poi_label":0.0,"stars":0.0,"type":"BP","id":3000001.0,"categories":[""]},
+{"border_points":[""],"dist_to_poi":0.0,"poi_label":0.0,"stars":0.0,"type":"BP","id":3000002.0,"categories":[""]},
+{"border_points":[3000001.0,3000002.0],"dist_to_poi":0.0,"poi_label":2000002.0,"stars":4.5,"type":"POI","id":2000002.0,"categories":["Food","Asian Fusion","Food Trucks","Hawaiian","Restaurants"]}]

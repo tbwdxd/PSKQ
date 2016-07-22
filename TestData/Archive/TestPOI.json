@@ -1,0 +1,2 @@
+[{"id":2000001, "categories":["Food","Restaurants","Pizza"],"border_points":[3000001,3000002], "poi_label":2000001, "stars":2.5, "type":"POI"}, {"id":2000002,"categories":["Food","Asian Fusion","Food Trucks","Hawaiian","Restaurants"],"border_points":[3700001,3800002], "poi_label":2000002, "stars":4.5, "type":"POI"},{"id":2000003,"categories":["Mexican","Hawaiian","Restaurants"],"border_points":[3500001,3600002], "poi_label":2000003, "stars":3.5, "type":"POI"}]
+

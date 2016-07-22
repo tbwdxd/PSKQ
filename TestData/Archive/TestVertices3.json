@@ -1,0 +1,10 @@
+{"id":2000001, "categories":["Food","Restaurants","Pizza"],"border_points":[3000001,3000002], "poi_label":2000001, "stars":2.5, "type":"POI"},
+{"id":1, "categories":[""], "border_points":[""], "poi_label":2000001, "stars":"", "type":"node"},
+{"id":5, "categories":[""], "border_points":[""], "poi_label":2000001, "stars":"", "type":"node"},
+{"id":3000001, "categories":[""], "border_points":[""], "poi_label":"", "stars":"", "type":"BP"},
+{"id":2, "categories":[""], "border_points":[""], "poi_label":2000002, "stars":"", "type":"node"},
+{"id":3, "categories":[""], "border_points":[""], "poi_label":2000001, "stars":"", "type":"node"},
+{"id":3000002, "categories":[""], "border_points":[""], "poi_label":"", "stars":"", "type":"BP"},
+{"id":4, "categories":[""], "border_points":[""], "poi_label":2000002, "stars":"", "type":"node"},
+{"id":2000002,"categories":["Food","Asian Fusion","Food Trucks","Hawaiian","Restaurants"],"border_points":[3000001,3000002], "poi_label":2000002, "stars":4.5, "type":"POI"}
+

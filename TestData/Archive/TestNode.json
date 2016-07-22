@@ -1,0 +1,5 @@
+[{"id":1, "categories":[""], "border_points":[""], "poi_label":2000001, "stars":"", "dist_to_poi":0.0123456787980, "type":"node"},
+{"id":5, "categories":[""], "border_points":[""], "poi_label":2000001, "stars":"", "dist_to_poi":0.0123456787980, "type":"node"},
+{"id":2, "categories":[""], "border_points":[""], "poi_label":2000002, "stars":"", "dist_to_poi":0.0123456787980, "type":"node"},
+{"id":3, "categories":[""], "border_points":[""], "poi_label":2000001, "stars":"", "dist_to_poi":0.0123456787980, "type":"node"},
+{"id":4, "categories":[""], "border_points":[""], "poi_label":2000002, "stars":"", "dist_to_poi":0.0123456787980, "type":"node"}]
