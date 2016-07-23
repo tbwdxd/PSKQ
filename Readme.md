@@ -14,3 +14,11 @@ PSKQ phase one was partially completed with low-performance result. The reason i
 
 We are trying to migrate all current project from python based code into scala based code, which we believe will increase the performance significantly.
 
+## sbt Installation
+```
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 642AC823
+sudo apt-get update
+sudo apt-get install sbt
+
+```
