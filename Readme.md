@@ -8,7 +8,7 @@ Also, Bowen Tian, Yijie Sun, Suraj Bennur, Brandon Huebert, Yuting Zhang, Sahar 
 
 ## Current State
 
-PSKQ phase one was partially completed with low-performance result. The reason is the lack of customize our unique library.
+PSKQ phase one was partially completed with low-performance result. The reason is we did not implemented garbage collection (or the lack of customize our unique library).
 
 ## Our Effort
 
